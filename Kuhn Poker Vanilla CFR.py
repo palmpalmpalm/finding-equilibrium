@@ -124,6 +124,8 @@ def cfr(is_map, history, card_1, card_2, prob_1, prob_2, prob_chance):
     else:
         information_set.regret_sum += prob_chance * prob_1 * regrets
 
+    return util
+
 def main():
     #Information Set Map
     is_map = {}
